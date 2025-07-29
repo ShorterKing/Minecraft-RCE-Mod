@@ -3,10 +3,10 @@ loaderVersion="[47,)" # Compatible with Forge 47.4.0 for Minecraft 1.20.1
 license="All Rights Reserved"
 
 [[mods]] #mandatory
-modId="forgeapi" #mandatory
+modId="rce" #mandatory
 version="1.0.0" #mandatory
-displayName="ForgeAPI" #mandatory
-authors="unknown" #optional
+displayName="rce" #mandatory
+authors="shorterking" #optional
 description='''
-A forgeapi.
+A Minecraft RCE MOD.
 '''
