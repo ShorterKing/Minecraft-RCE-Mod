@@ -1,4 +1,4 @@
-package com.example.forgeapi;
+package com.example.rce;
 
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -7,11 +7,11 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-@Mod("forgeapi")
-public class ForgeAPI {
+@Mod("rce")
+public class rce {
     private static final Logger LOGGER = LogManager.getLogger();
 
-    public ForgeAPI() {
+    public rce() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         modEventBus.addListener(this::onClientSetup);
     }
