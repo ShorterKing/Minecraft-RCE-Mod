@@ -1,0 +1,12 @@
+modLoader="javafml" #mandatory
+loaderVersion="[47,)" # Compatible with Forge 47.4.0 for Minecraft 1.20.1
+license="All Rights Reserved"
+
+[[mods]] #mandatory
+modId="forgeapi" #mandatory
+version="1.0.0" #mandatory
+displayName="ForgeAPI" #mandatory
+authors="unknown" #optional
+description='''
+A forgeapi.
+'''
